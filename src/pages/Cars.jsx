@@ -1,35 +1,35 @@
-import Navbar from "../components/Navbar";
+
 import { useNavigate } from "react-router-dom";
 
 const cars = [
   {
     name: "Maruti Suzuki Swift",
-    image: "/public/swift.jpg",
+    image: "/swift.jpg",
     price: "₹6.49 Lakh",
   },
   {
     name: "Maruti Suzuki Baleno",
-    image: "/public/baleno.jpg",
+    image: "/baleno.jpg",
     price: "₹6.70 Lakh",
   },
   {
     name: "Maruti Suzuki Brezza",
-    image: "/public/brezza.jpg",
+    image: "/brezza.jpg",
     price: "₹8.69 Lakh",
   },
   {
     name: "Maruti Suzuki Fronx",
-    image: "/public/fronxx.jpg",
+    image: "/fronxx.jpg",
     price: "₹7.54 Lakh",
   },
   {
     name: "Maruti Suzuki Grand Vitara",
-    image: "/public/grand vitara.jpg",
+    image: "/grand vitara.jpg",
     price: "₹11.42 Lakh",
   },
   {
     name: "Maruti Suzuki Ertiga",
-    image: "/public/Ertiga.jpg",
+    image: "/Ertiga.jpg",
     price: "₹8.97 Lakh",
   },
 ];
@@ -38,7 +38,7 @@ const Cars = () => {
   const navigate = useNavigate();
   return (
     <>
-      <Navbar />
+    
 
       <section
         className="
