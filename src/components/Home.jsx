@@ -31,12 +31,12 @@ const Home = () => {
                             Tarun Sadh
                         </h1>
 
-                        <h2 className="mt-4 text-lg sm:text-xl lg:text-2xl font-bold text-blue-700 dark:text-blue-400 animate-fadeUp">
+                        <h2 className="mt-3 text-lg sm:text-xl lg:text-2xl font-bold text-blue-700 dark:text-blue-400 animate-fadeUp">
                             Relationship Manager At Maruti Suzuki
                         </h2>
 
 {/* Mobile Image */}
-<div className="flex justify-center mt-8 lg:hidden animate-fadeRight">
+<div className="flex justify-center mt-10 lg:hidden animate-fadeRight">
 
   <div className="relative">
 
@@ -45,6 +45,7 @@ const Home = () => {
     <div
       className="
       relative
+      mt-12
       w-44 h-44
       sm:w-56 sm:h-56
       rounded-full
