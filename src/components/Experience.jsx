@@ -8,7 +8,7 @@ const Experience = () => {
     return (
         <section
             id="experience"
-            data-aos="fade-left"
+            data-aos="fade-up"
             className="py-20 bg-blue-50 dark:bg-slate-900 transition-all duration-500"
         >
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

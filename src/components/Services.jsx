@@ -50,7 +50,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      data-aos="fade-in"
+      data-aos="fade-up"
       className="py-20 bg-gradient-to-br from-white via-blue-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

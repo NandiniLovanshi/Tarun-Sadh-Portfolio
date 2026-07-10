@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section
       id="about"
-      data-aos="fade-right"
+      data-aos="fade-up"
       className="py-24 bg-white dark:bg-slate-950 transition-all duration-500"
     >
       <div className="max-w-5xl mx-auto px-6 text-center">
