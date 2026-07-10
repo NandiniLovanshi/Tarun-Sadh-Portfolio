@@ -41,6 +41,7 @@ const Cars = () => {
     
 
       <section
+      data-aos="fade-up"
         className="
         py-16 sm:py-20 lg:py-24
         min-h-screen
@@ -57,13 +58,13 @@ const Cars = () => {
 
           {/* Heading */}
 
-          <div className="text-center mb-10 sm:mb-14">
+          <div className="text-center mb-8 sm:mb-12">
 
             <h1
           
               className="
               text-2xl
-              mt-10
+              mt-3
               sm:text-3xl
               lg:text-4xl
               font-bold
