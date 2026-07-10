@@ -1,53 +1,20 @@
-// import About from "./components/About"
-// import Certificate from "./components/Certificate"
-// import Contact from "./components/Contact"
-// import Experience from "./components/Experience"
-// import Home from "./components/Home"
-// import Navbar from "./components/Navbar"
-// import Services from "./components/Services"
-// import Footer from "./components/Footer"
-
-
-// function App(){
-//   return(
-//     <>
-//     <Navbar />
-//     <Home />
-//     <About />
-//     <Experience />
-//     <Certificate />
-//     <Services />
-//     <Contact />
-//     <Footer />
-    
-//     </>
-//   )
-// }
-// export default App
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import About from "./components/About";
-import Certificate from "./components/Certificate";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Home from "./components/Home";
 import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Certificate from "./components/Certificate";
 import Services from "./components/Services";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-function App() {
+import Cars from "./pages/Cars";
 
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,   // Animation speed
-      once: true,       // Sirf ek baar chalegi
-      offset: 100,      // Scroll hone ke baad animation start
-      easing: "ease-in-out",
-    });
-  }, []);
-
+function HomePage() {
   return (
     <>
       <Navbar />
@@ -59,6 +26,29 @@ function App() {
       <Contact />
       <Footer />
     </>
+  );
+}
+
+function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100,
+      easing: "ease-in-out",
+    });
+  }, []);
+
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/* Home Page */}
+        <Route path="/" element={<HomePage />} />
+
+        {/* Cars Page */}
+        <Route path="/cars" element={<Cars />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

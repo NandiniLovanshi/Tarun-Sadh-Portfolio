@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import {
     FaPhoneAlt,
     FaEnvelope,
@@ -44,8 +45,7 @@ const Home = () => {
                             experience.
                         </p>
 
-                        {/* Buttons */}
-                        <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-5 animate-fadeUp">
+                        <div className="mt-10 flex flex-wrap justify-center lg:justify-start gap-5">
 
                             <a
                                 href="#contact"
@@ -54,19 +54,19 @@ const Home = () => {
                                 Contact Me
                             </a>
 
-                            <a
-                                href="#cars"
+                            <Link
+                                to="/cars"
                                 className="px-8 py-3 rounded-xl border-2 border-blue-700 text-blue-700 dark:text-blue-400 hover:bg-blue-700 hover:text-white hover:-translate-y-1 hover:scale-105 transition-all duration-300"
                             >
                                 View Cars
-                            </a>
+                            </Link>
 
                         </div>
 
                         {/* Statistics */}
                         <div
-                        data-aos="zoom-in"
-                        className="grid grid-cols-3 gap-2 sm:gap-6 mt-9 w-full max-w-lg mx-auto lg:mx-0 animate-fadeUp">
+                            data-aos="zoom-in"
+                            className="grid grid-cols-3 gap-2 sm:gap-6 mt-9 w-full max-w-lg mx-auto lg:mx-0 animate-fadeUp">
 
                             {/* Card 1 */}
                             <div className="bg-white dark:bg-slate-900 rounded-lg sm:rounded-xl p-2 sm:p-4 shadow-lg border border-blue-100 dark:border-blue-800 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 text-center">
@@ -85,7 +85,7 @@ const Home = () => {
                             <div className="bg-white dark:bg-slate-900 rounded-lg sm:rounded-xl p-2 sm:p-4 shadow-lg border border-blue-100 dark:border-blue-800 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 text-center">
 
                                 <h2 className="text-lg sm:text-3xl font-bold text-blue-600 dark:text-blue-400">
-                                    260+
+                                    250+
                                 </h2>
 
                                 <p className="text-[10px] sm:text-sm md:text-base text-gray-600 dark:text-gray-400 mt-2 leading-tight">
@@ -122,7 +122,7 @@ const Home = () => {
                             <div className="absolute inset-0 rounded-full bg-blue-500 blur-3xl opacity-30 scale-110"></div>
 
                             {/* Image */}
-<div className="relative
+                            <div className="relative
 w-44 h-44
 sm:w-56 sm:h-56
 md:w-64 md:h-64
@@ -136,17 +136,17 @@ animate-glow
 hover:scale-105
 transition-all
 duration-500"
->
-    <img
-        src="/profile.jpeg"
-        alt="Sales Manager"
-        className="w-full h-full object-cover"
-    />
-</div>
+                            >
+                                <img
+                                    src="/profile.jpeg"
+                                    alt="Sales Manager"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
 
-{/* Floating Badge */}
-<div
-    className="absolute
+                            {/* Floating Badge */}
+                            <div
+                                className="absolute
     -bottom-3 -left-2
     sm:-bottom-5 sm:-left-5
     bg-blue-700 dark:bg-blue-600
@@ -158,19 +158,19 @@ duration-500"
     animate-float
     hover:scale-105
     transition-all duration-300"
->
-    <FaCar className="text-lg sm:text-2xl text-white" />
+                            >
+                                <FaCar className="text-lg sm:text-2xl text-white" />
 
-    <div>
-        <h3 className="text-sm sm:text-base font-bold text-white">
-            250+
-        </h3>
+                                <div>
+                                    <h3 className="text-sm sm:text-base font-bold text-white">
+                                        250+
+                                    </h3>
 
-        <p className="text-[11px] sm:text-sm text-blue-100">
-            Cars Sold
-        </p>
-    </div>
-</div>
+                                    <p className="text-[11px] sm:text-sm text-blue-100">
+                                        Cars Sold
+                                    </p>
+                                </div>
+                            </div>
 
                         </div>
 
