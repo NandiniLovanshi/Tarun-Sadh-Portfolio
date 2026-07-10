@@ -138,7 +138,7 @@ transition-all
 duration-500"
 >
     <img
-        src="/public/sales-manager.jpeg"
+        src="/profile.jpeg"
         alt="Sales Manager"
         className="w-full h-full object-cover"
     />
