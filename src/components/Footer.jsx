@@ -20,7 +20,7 @@ const Footer = () => {
   return (
 
     <footer
-    data-aos="fade-up"
+    data-aos="fade-in"
       className="
       bg-slate-950
       text-gray-300
