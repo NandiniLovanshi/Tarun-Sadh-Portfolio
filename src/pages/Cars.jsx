@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import { useNavigate } from "react-router-dom";
 
 const cars = [
   {
@@ -34,6 +35,7 @@ const cars = [
 ];
 
 const Cars = () => {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -58,8 +60,10 @@ const Cars = () => {
           <div className="text-center mb-10 sm:mb-14">
 
             <h1
+          
               className="
               text-2xl
+              mt-10
               sm:text-3xl
               lg:text-4xl
               font-bold
@@ -176,7 +180,6 @@ const Cars = () => {
     font-semibold
     transition-all
     duration-300
-    active:scale-95
   "
 >
   Enquire Now
