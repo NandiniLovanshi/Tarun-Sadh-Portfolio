@@ -20,10 +20,12 @@ const Footer = () => {
   return (
 
     <footer
+    data-aos="fade-up"
       className="
       bg-slate-950
       text-gray-300
       py-10 sm:py-12
+      
       "
     >
 
@@ -40,22 +42,9 @@ const Footer = () => {
         >
 
 
-          {/* Quick Links */}
+          {/* Quick Links
 
           <div>
-
-            <h3
-              className="
-              text-lg
-              font-semibold
-              text-white
-              mb-4
-              "
-            >
-              Quick Links
-            </h3>
-
-
             <ul className="space-y-3">
 
               {
@@ -81,7 +70,7 @@ const Footer = () => {
 
             </ul>
 
-          </div>
+          </div> */}
 
 
 

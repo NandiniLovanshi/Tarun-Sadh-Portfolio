@@ -8,6 +8,7 @@ const Experience = () => {
     return (
         <section
             id="experience"
+            data-aos="fade-left"
             className="py-20 bg-blue-50 dark:bg-slate-900 transition-all duration-500"
         >
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -28,7 +29,10 @@ const Experience = () => {
                 <div className="space-y-8">
 
                     {/* Experience 1 */}
-                    <div className="bg-white dark:bg-slate-950 rounded-2xl shadow-lg border-2 border-blue-600 p-4 sm:p-6 hover:-translate-y-2 transition-all duration-300">
+                    <div 
+                    data-aos="zoom-in"
+                    
+                    className="bg-white dark:bg-slate-950 rounded-2xl shadow-lg border-2 border-blue-600 p-4 sm:p-6 hover:-translate-y-2 transition-all duration-300">
 
                         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3">
 
@@ -66,7 +70,9 @@ const Experience = () => {
                     </div>
 
                     {/* Experience 2 */}
-                    <div className="bg-white dark:bg-slate-950 rounded-2xl shadow-lg border border-blue-100 dark:border-blue-800 p-4 sm:p-6 hover:-translate-y-2 transition-all duration-300">
+                    <div 
+                    data-aos="zoom-in"
+                    className="bg-white dark:bg-slate-950 rounded-2xl shadow-lg border border-blue-100 dark:border-blue-800 p-4 sm:p-6 hover:-translate-y-2 transition-all duration-300">
 
                         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3">
 
@@ -98,7 +104,9 @@ const Experience = () => {
                     </div>
 
                     {/* Experience 3 */}
-                    <div className="bg-white dark:bg-slate-950 rounded-2xl shadow-lg border border-blue-100 dark:border-blue-800 p-4 sm:p-6 hover:-translate-y-2 transition-all duration-300">
+                    <div 
+                    data-aos="zoom-in"
+                    className="bg-white dark:bg-slate-950 rounded-2xl shadow-lg border border-blue-100 dark:border-blue-800 p-4 sm:p-6 hover:-translate-y-2 transition-all duration-300">
 
                         <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-3">
 

@@ -9,6 +9,7 @@ const Home = () => {
     return (
         <section
             id="home"
+            data-aos="fade-up"
             className="relative overflow-hidden min-h-screen flex items-center pt-24 transition-all duration-500 bg-gradient-to-br from-white via-blue-50 to-blue-100 dark:from-slate-950 dark:via-slate-900 dark:to-blue-950"
         >
             {/* Background Glow */}
@@ -63,7 +64,9 @@ const Home = () => {
                         </div>
 
                         {/* Statistics */}
-                        <div className="grid grid-cols-3 gap-2 sm:gap-6 mt-9 w-full max-w-lg mx-auto lg:mx-0 animate-fadeUp">
+                        <div
+                        data-aos="zoom-in"
+                        className="grid grid-cols-3 gap-2 sm:gap-6 mt-9 w-full max-w-lg mx-auto lg:mx-0 animate-fadeUp">
 
                             {/* Card 1 */}
                             <div className="bg-white dark:bg-slate-900 rounded-lg sm:rounded-xl p-2 sm:p-4 shadow-lg border border-blue-100 dark:border-blue-800 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 text-center">

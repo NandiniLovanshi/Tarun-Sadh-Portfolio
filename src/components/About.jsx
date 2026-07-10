@@ -9,6 +9,7 @@ const About = () => {
   return (
     <section
       id="about"
+      data-aos="fade-right"
       className="py-24 bg-white dark:bg-slate-950 transition-all duration-500"
     >
       <div className="max-w-5xl mx-auto px-6 text-center">
@@ -39,7 +40,10 @@ const About = () => {
         </p>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
+        <div 
+        data-aos="fade-up"
+        
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-16">
 
           <div className="bg-blue-50 dark:bg-slate-900 border border-blue-100 dark:border-blue-800 rounded-2xl p-8 hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
             <FaCar className="text-4xl text-blue-600 mx-auto mb-5" />

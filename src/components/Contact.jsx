@@ -39,6 +39,7 @@ const Contact = () => {
 
     <section
       id="contact"
+      data-aos="fade-up"
       className="
       py-12 sm:py-20
       bg-gradient-to-br 

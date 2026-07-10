@@ -50,6 +50,7 @@ const Services = () => {
   return (
     <section
       id="services"
+      data-aos="fade-in"
       className="py-20 bg-gradient-to-br from-white via-blue-50 to-white dark:from-slate-950 dark:via-slate-900 dark:to-slate-950"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -75,6 +76,8 @@ const Services = () => {
 
             <div
               key={index}
+              data-aos="zoom-in-up"
+              data-aos-delay={index * 100}
               className="bg-white dark:bg-slate-900 rounded-xl p-5 w-full max-w-[330px] border border-blue-100 dark:border-blue-800 shadow-md hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
             >
 
