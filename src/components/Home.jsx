@@ -35,7 +35,63 @@ const Home = () => {
                             Relationship Manager At Maruti Suzuki
                         </h2>
 
+{/* Mobile Image */}
+<div className="flex justify-center mt-8 lg:hidden animate-fadeRight">
 
+  <div className="relative">
+
+    <div className="absolute inset-0 rounded-full bg-blue-500 blur-3xl opacity-30 scale-110"></div>
+
+    <div
+      className="
+      relative
+      w-44 h-44
+      sm:w-56 sm:h-56
+      rounded-full
+      overflow-hidden
+      border-2 border-blue-700
+      shadow-[0_20px_60px_rgba(59,130,246,0.4)]
+      animate-float
+      animate-glow
+      "
+    >
+      <img
+        src="/profile.jpeg"
+        alt="Sales Manager"
+        className="w-full h-full object-cover"
+      />
+    </div>
+
+    <div
+      className="
+      absolute
+      -bottom-3
+      -left-2
+      bg-blue-700
+      px-3 py-2
+      rounded-xl
+      shadow-xl
+      flex
+      items-center
+      gap-2
+      "
+    >
+      <FaCar className="text-white text-lg" />
+
+      <div>
+        <h3 className="text-sm font-bold text-white">
+          250+
+        </h3>
+
+        <p className="text-[11px] text-blue-100">
+          Cars Sold
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
 
                         <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600 dark:text-gray-300 max-w-xl animate-fadeUp">
                             Experienced Sales Manager with expertise in automobile sales,
@@ -114,7 +170,7 @@ const Home = () => {
                     </div>
 
                     {/* Right Side */}
-                    <div className="flex-1 flex justify-center animate-fadeRight">
+                    <div className="hidden lg:flex flex-1 justify-center animate-fadeRight">
 
                         <div className="relative">
 

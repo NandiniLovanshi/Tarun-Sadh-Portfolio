@@ -38,15 +38,22 @@ const Contact = () => {
   return (
 
     <section
-      id="contact"
-      data-aos="fade-up"
-      className="
-      py-12 sm:py-20
-      bg-gradient-to-br 
-      from-white via-blue-50 to-blue-100
-      dark:from-slate-950 dark:via-slate-900 dark:to-blue-950
-      "
-    >
+  id="contact"
+  data-aos="fade-up"
+  className="
+  
+    scroll-mt-24
+    sm:scroll-mt-28
+    py-20
+    bg-gradient-to-br
+    from-white
+    via-blue-50
+    to-blue-100
+    dark:from-slate-950
+    dark:via-slate-900
+    dark:to-blue-950
+  "
+>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
